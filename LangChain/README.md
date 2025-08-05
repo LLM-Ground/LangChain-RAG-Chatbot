@@ -41,3 +41,19 @@ https://openai.com/ko-KR/index/openai-api/
 <img width="487" height="684" alt="스크린샷 2025-08-05 오후 6 16 14" src="https://github.com/user-attachments/assets/9d4e0f6f-09c8-4381-adb3-bd7a726e7eea" />
 
 3. api key 발급
+```py
+from openai import OpenAI
+
+client = OpenAI(
+  api_key={key}
+)
+
+response = client.responses.create(
+  model="gpt-4o-mini",
+  input="write a haiku about ai",
+  store=True,
+)
+
+print(response.output_text);
+
+```
