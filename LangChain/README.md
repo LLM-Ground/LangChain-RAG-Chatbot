@@ -30,3 +30,14 @@ ex> 사내에서 파이썬 개발 역량이 있는 직원을 알려줘
 * 문서기반 질의 응답 시스템
 * 검색 기반 요약 도구
 * 내부 지식 기반 검색 서비스 등
+
+### OpenAI API Key 발급
+https://openai.com/ko-KR/index/openai-api/
+회원가입 및 로그인
+
+1. start building
+
+2. create organization
+<img width="487" height="684" alt="스크린샷 2025-08-05 오후 6 16 14" src="https://github.com/user-attachments/assets/9d4e0f6f-09c8-4381-adb3-bd7a726e7eea" />
+
+3. api key 발급
