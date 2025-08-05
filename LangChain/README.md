@@ -57,3 +57,8 @@ response = client.responses.create(
 print(response.output_text);
 
 ```
+
+4. credit 결제
+* API를 써서 gpt와 통신을 하기위해서는 대화를 할 때마다 비용발생
+* 데이터를 많이보내고 많은 데이터를 응답 받을수록 비용은 적게 발생
+* 5달러면 충분
