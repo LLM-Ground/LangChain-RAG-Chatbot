@@ -75,3 +75,17 @@ import os
 # 환경변수에서 API Key 가져오기
 api_key = os.getenv("OPENAI_API_KEY")
  ```
+
+ 6. env파일로 관리하기
+ ```bash
+pip3 install python-dotenv
+ ```
+
+ .env파일 만들고, OPENAI_API_KEY 값을 넣은 후
+
+ ```py
+from dotenv import load_dotenv
+load_dotenv()
+ ```
+
+ 이렇게 하면 .env전체 다 불러와져서 일일이 key값을 넣어주지 않아도 된다!
