@@ -62,3 +62,16 @@ print(response.output_text);
 * API를 써서 gpt와 통신을 하기위해서는 대화를 할 때마다 비용발생
 * 데이터를 많이보내고 많은 데이터를 응답 받을수록 비용은 적게 발생
 * 5달러면 충분
+
+
+5. openai key 시스템 환경변수에 저장
+ * vi ~/.zshrc
+ * export OPENAI_API_KEY="{key}"
+ * source ~/.zshrc
+ * echo $OPENAI_API_KEY
+ ```py
+import os
+
+# 환경변수에서 API Key 가져오기
+api_key = os.getenv("OPENAI_API_KEY")
+ ```
