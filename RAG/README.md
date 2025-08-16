@@ -1,6 +1,6 @@
 ﻿# RAG
 
-- Retrieval : 검색(검색을 옿해)
+- Retrieval : 검색(검색을 통해)
 - Augmented : 증강(정보를 보강하고)
 - Generation : 생성(답변을 생성)
 
