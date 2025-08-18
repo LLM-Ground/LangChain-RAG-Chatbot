@@ -7,6 +7,9 @@
 AI는 학습된 양이 많을 수록 정확한 답변이 가능해짐<br>
 RAG는 정답이 담겨있는 자료를 가지고 오픈북 시험을 보는 것과 마찬가지임
 
+<img width="728" height="397" alt="KakaoTalk_20250818_214948876" src="https://github.com/user-attachments/assets/13cb8fd3-8a81-4c61-87b4-bb50b8620749" />
+
+
 ## Indexing
 
 문서를 검색할 수 있게 준비하는 과정
